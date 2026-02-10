@@ -5,6 +5,7 @@ this is an example of a ReadMe file.
 
 
 Checkpoints:
+
 Q1: Printing an object with no toString will display the object's name followed by an @ and the hex hash code. This is due to the default toString being in that format.
 
 Q2: name = null, age = 0, breed = null; name and breed are reference types, age is a primitive type.
@@ -17,6 +18,7 @@ Q5: Private fields with getters and setters is prefered over public fields becau
 
 
 Reflection Questions:
+
 2. name = null, clawsTrimmed = false, eyeColor = null
 
 4. @Override is added to toString() because toString() is already in Java by default. It is best practice to use @Override when defining a new toString() to avoid any unwanted errors. If it is not used, you could misspell toString and end up creating a whole new method and the default toString() would not be overrided.
